@@ -40,7 +40,7 @@ transit_prefix = "[TRANSIT]"
 
 def run_main():
     print("=== Transit %s ===" % pytransit.__version__)
-    if True:
+    if False:
       print("""
 ******************************************************************************************
 *** Attention: 
