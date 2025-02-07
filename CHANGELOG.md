@@ -2,7 +2,7 @@
 All notable changes to this project will be documented in this file.
 
 
-## Version 3.3.10c1 (2025-02-06)
+## Version 3.3.10b1 (2025-02-06)
 #### Transit:
 
 Note: This is the Final Release for the 'tnseq-transit' package on PyPi.
