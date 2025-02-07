@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 
 
+## Version 3.3.19 (2025-02-06)
+#### Transit1:
+
+Minor changes:
+  - switching back to transit1; remove migration message
+
+
 ## Version 3.3.10.post1 (2025-02-06)
 #### tnseq-transit:
 
