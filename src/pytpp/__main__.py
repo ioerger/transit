@@ -32,9 +32,19 @@ import gzip
 
 from pytpp.tpp_tools import *
 from pytpp.tpp_gui import *
-
+import pytransit.__main__
 
 def run_main():
+    print("=== Transit %s ===" % pytransit.__version__)
+#  print("""
+#******************************************************************************************
+#*** Attention: 
+#***   The 'tnseq-transit' package on PyPi is migrating to a new package name, 'transit1'.  
+#***   This name-change was required by PyPi. 
+#***   This is the final release for 'tnseq-transit'.  
+#***   For subsequent updates, users should do 'pip install transit1'. 
+#******************************************************************************************
+#""")
     (args, kwargs) = cleanargs(sys.argv[1:])
     main(*args, **kwargs)
 
