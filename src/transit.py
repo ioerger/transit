@@ -19,13 +19,20 @@
 #    You should have received a copy of the GNU General Public License
 #    along with TRANSIT.  If not, see <http://www.gnu.org/licenses/>.
 
-
-
 import pytransit.__main__
 
-
 if __name__ == "__main__":
-    pytransit.__main__.run_main()
+  print("=== Transit %s ===" % pytransit.__version__)
+  print("""
+******************************************************************************************
+*** Attention: 
+***   The 'tnseq-transit' package on PyPi is migrating to a new package name, 'transit1'.  
+***   This name-change was required by PyPi. 
+***   This is the final release for 'tnseq-transit'.  
+***   For subsequent updates, users should do 'pip install transit1'. 
+******************************************************************************************
+""")
+  pytransit.__main__.run_main()
 
 
 
