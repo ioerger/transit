@@ -24,14 +24,14 @@ import pytransit.__main__
 
 if __name__ == "__main__":
   print("=== Transit %s ===" % pytransit.__version__)
-  print("""
-******************************************************************************************
-*** Attention: 
-***   The 'tnseq-transit' package on PyPi is migrating to a new package name, 'transit1'.  
-***   This name-change was required by PyPi. 
-***   This is the final release for 'tnseq-transit'.  
-***   For subsequent updates, users should do 'pip install transit1'. 
-******************************************************************************************
-""")
+#  print("""
+#******************************************************************************************
+#*** Attention: 
+#***   The 'tnseq-transit' package on PyPi is migrating to a new package name, 'transit1'.  
+#***   This name-change was required by PyPi. 
+#***   This is the final release for 'tnseq-transit'.  
+#***   For subsequent updates, users should do 'pip install transit1'. 
+#******************************************************************************************
+#""")
   pytpp.__main__.run_main()
 

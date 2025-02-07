@@ -2,6 +2,17 @@
 All notable changes to this project will be documented in this file.
 
 
+## Version 3.3.13 (2025-02-06)
+#### Transit:
+
+Note: this is the next version in the 'transit1' package on PyPi
+
+Minor changes:
+  - added pytransit.analysis to packages in setup.py (to fix installation problem)
+  - print Transit version on command line when user runs tpp.py or transit.py
+  - remove warning message (above) to prompt users to migrate by doing 'pip install transit1'
+
+
 ## Version 3.3.10b (2025-02-06)
 #### Transit:
 
