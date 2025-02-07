@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 
 
+## Version 3.3.17 (2025-02-06)
+#### Transit1:
+
+Minor changes:
+  - add pytransit.convert package
+
+
 ## Version 3.3.16 (2025-02-06)
 #### Transit:
 
