@@ -9,6 +9,22 @@ Minor changes:
   - switching back to transit1; remove migration message
 
 
+## Version 3.3.10.post1 (2025-02-06)
+#### tnseq-transit:
+
+Note: This is the Final Release for the 'tnseq-transit' package on PyPi.
+
+Minor changes:
+  - just changing tag name so this will be treated as a post-release
+
+
+## Version 3.3.18 (2025-02-06)
+#### Transit1:
+
+Minor changes:
+  - switching back to transit1; remove migration message
+
+
 ## Version 3.3.10b2 (2025-02-06)
 #### Transit:
 

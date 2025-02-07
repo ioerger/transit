@@ -37,7 +37,7 @@ import pytransit.__main__
 
 def run_main():
     print("=== Transit %s ===" % pytransit.__version__)
-    if False:
+    if True:
       print("""
 ******************************************************************************************
 *** Attention: 
