@@ -500,6 +500,7 @@ def template_counts(ref,sam,bcfile,vars):
       if code[6]=="1" and code[2]=="0": vars.r1 += 1
       if code[6]=="1" and code[3]=="0": vars.r2 += 1
       if bc=="XXXXXXXXXX": continue
+      #if int(w[1]) in [0,16,81,83,97,99]: # allow improperly-mapped reads
       if code[6]=="1" and code[1]=="1": # both reads map properly (83 or 99) and has legit barcode
         vars.mapped += 1
         readlen = len(w[9])
