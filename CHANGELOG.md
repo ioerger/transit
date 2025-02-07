@@ -2,11 +2,29 @@
 All notable changes to this project will be documented in this file.
 
 
+## Version 3.3.10final (2025-02-06)
+#### Transit:
+
+Note: This is the final release for the 'tnseq-transit' package on PyPi.
+
+The 'tnseq-transit' package on PyPi is migrating to a new package name, 'transit1'.
+This name-change was required by PyPi.
+This is the final release for 'tnseq-transit'.
+For subsequent updates, users should do 'pip install transit1'.
+
+Minor changes:
+  - added pytransit.analsysi to packages in setup.py (to fix installation problem)
+  - print Transit version on command line when user runs tpp.py or transit.py
+  - added warning message (above) to prompt users to migrate by doing 'pip install transit1'
+
+
+
 ## Version 3.3.12 (2024-12-13)
 #### Transit:
 
 Minor changes:
   - Tiny adjustment of packages in setup.py
+
 
 
 ## Version 3.3.11 (2024-12-13)
