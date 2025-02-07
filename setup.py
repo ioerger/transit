@@ -140,8 +140,8 @@ package_data = {
 }
 
 setup(
-    name='tnseq-transit',
-    #name='transit1',
+    #name='tnseq-transit',
+    name='transit1',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see

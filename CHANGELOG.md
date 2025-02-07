@@ -2,6 +2,15 @@
 All notable changes to this project will be documented in this file.
 
 
+## Version 3.3.15 (2025-02-06)
+#### Transit:
+
+Note: this is the next version in the 'transit1' package on PyPi
+
+Minor changes:
+  - move where Transit version is printed in source code
+
+
 ## Version 3.3.10b1 (2025-02-06)
 #### Transit:
 
