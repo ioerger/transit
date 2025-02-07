@@ -2,7 +2,14 @@
 All notable changes to this project will be documented in this file.
 
 
-## Version 3.3.13 (2025-02-06)
+## Version 3.3.14 (2025-02-06)
+#### Transit:
+
+Minor changes:
+  - move printing of Transit version number in source code, so it shows for commands run in 'pip install'
+
+
+	## Version 3.3.13 (2025-02-06)
 #### Transit:
 
 Note: this is the next version in the 'transit1' package on PyPi
